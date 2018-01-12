@@ -35,15 +35,55 @@ public class VentanaProyecto extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        botonAlberto.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        botonAlberto.setForeground(new java.awt.Color(255, 0, 0));
         botonAlberto.setText("Alberto");
+        botonAlberto.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                botonAlbertoMousePressed(evt);
+            }
+        });
+        botonAlberto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonAlbertoActionPerformed(evt);
+            }
+        });
 
+        botonMarco.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        botonMarco.setForeground(new java.awt.Color(255, 0, 0));
         botonMarco.setText("Marco");
+        botonMarco.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                botonMarcoMousePressed(evt);
+            }
+        });
 
+        botonIgor.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        botonIgor.setForeground(new java.awt.Color(255, 0, 0));
         botonIgor.setText("Igor");
+        botonIgor.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                botonIgorMousePressed(evt);
+            }
+        });
 
+        botonRoberto.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        botonRoberto.setForeground(new java.awt.Color(255, 0, 0));
         botonRoberto.setText("Roberto");
+        botonRoberto.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                botonRobertoMousePressed(evt);
+            }
+        });
 
+        botonCarlos.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        botonCarlos.setForeground(new java.awt.Color(255, 0, 0));
         botonCarlos.setText("Carlos");
+        botonCarlos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                botonCarlosMousePressed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -83,6 +123,30 @@ public class VentanaProyecto extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void botonCarlosMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonCarlosMousePressed
+       
+    }//GEN-LAST:event_botonCarlosMousePressed
+
+    private void botonAlbertoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonAlbertoMousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botonAlbertoMousePressed
+
+    private void botonMarcoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonMarcoMousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botonMarcoMousePressed
+
+    private void botonRobertoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonRobertoMousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botonRobertoMousePressed
+
+    private void botonIgorMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonIgorMousePressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botonIgorMousePressed
+
+    private void botonAlbertoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAlbertoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botonAlbertoActionPerformed
 
     /**
      * @param args the command line arguments
