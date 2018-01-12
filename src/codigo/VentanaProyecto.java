@@ -5,6 +5,8 @@
  */
 package codigo;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author carlosabia
@@ -125,23 +127,34 @@ public class VentanaProyecto extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void botonCarlosMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonCarlosMousePressed
+        ClaseCarlos carlos = new ClaseCarlos();
+        carlos.setVisible(true);
+        carlos.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
        
     }//GEN-LAST:event_botonCarlosMousePressed
 
     private void botonAlbertoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonAlbertoMousePressed
-        // TODO add your handling code here:
+        ClaseAlberto alberto = new ClaseAlberto();
+        alberto.setVisible(true);
+        alberto.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_botonAlbertoMousePressed
 
     private void botonMarcoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonMarcoMousePressed
-        // TODO add your handling code here:
+        ClaseMarco marco = new ClaseMarco();
+        marco.setVisible(true);
+        marco.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_botonMarcoMousePressed
 
     private void botonRobertoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonRobertoMousePressed
-        // TODO add your handling code here:
+        ClaseRoberto roberto = new ClaseRoberto();
+        roberto.setVisible(true);
+        roberto.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_botonRobertoMousePressed
 
     private void botonIgorMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonIgorMousePressed
-        // TODO add your handling code here:
+        ClaseIgor igor = new ClaseIgor();
+        igor.setVisible(true);
+        igor.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_botonIgorMousePressed
 
     private void botonAlbertoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAlbertoActionPerformed
@@ -179,6 +192,12 @@ public class VentanaProyecto extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new VentanaProyecto().setVisible(true);
+                
+                new ClaseCarlos().setVisible(false);
+                new ClaseIgor().setVisible(false);
+                new ClaseAlberto().setVisible(false);
+                new ClaseMarco().setVisible(false);
+                new ClaseRoberto().setVisible(false);
             }
         });
     }
