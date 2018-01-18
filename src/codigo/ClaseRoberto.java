@@ -32,7 +32,7 @@ public class ClaseRoberto extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         ClaseRoberto.setForeground(new java.awt.Color(255, 102, 204));
-        ClaseRoberto.setText("Clase Roberto");
+        ClaseRoberto.setText("Clase Roberto, estamos activos ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
