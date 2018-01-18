@@ -18,7 +18,7 @@ public class ClaseCarlos extends javax.swing.JFrame {
      */
     public ClaseCarlos() {
         initComponents();
-        this.getContentPane().setBackground(Color.red);
+        this.getContentPane().setBackground(Color.orange);
         
     }
 
