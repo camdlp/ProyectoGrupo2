@@ -24,7 +24,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="jButton1" pref="364" max="32767" attributes="0"/>
+              <Component id="jButton1" pref="391" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
           </Group>
@@ -51,7 +51,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="cancer"/>
+        <Property name="text" type="java.lang.String" value="s"/>
       </Properties>
     </Component>
   </SubComponents>
